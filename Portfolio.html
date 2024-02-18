@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Portfolio</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Roboto+Flex:opsz,wght@8..144,100;8..144,200;8..144,300;8..144,400;8..144,500;8..144,600;8..144,700;8..144,800&display=swap" rel="stylesheet">
+        <style>
+            *
+            {
+                padding:0px;
+                margin:0px;
+            }
+
+            body
+            {
+                background-color: #243010;
+                color: #CAD593;
+            }
+
+            #header
+            {
+                margin: 10px 15px;
+                margin-bottom: 75px;
+                font-size: 30px;
+            }
+
+            #logo
+            {
+                position:absolute;
+                top:50px;
+                left:50px;
+                color:#FFEFE3;
+            }
+
+            #navbar
+            {
+                width:400px;
+                position: absolute;
+                right:100px;
+                top:50px;
+                font-size: 23px;
+                display: flex;
+                justify-content: space-around;
+                background-color: #FFEFE3;
+                border-radius: 20px;
+                margin-right: 20px;
+            }
+
+            #navbar a{
+                text-decoration: none;
+                color:black;
+            }
+
+            #navbar a:hover
+            {
+                text-decoration: underline;
+
+            }
+
+            #home
+            {
+                display:flex;
+                align-content: space-between;
+                justify-content: space-around;
+                background-color: #243010;
+                margin-bottom: 40px;
+            }
+
+            #home img
+            {
+                width:450px;
+                height:450px;
+            }
+
+            #hello
+            {
+                margin-top: 100px;
+                font-family: 'Roboto Flex', sans-serif;
+                font-size: 65px;
+                margin-right:30px;
+            }
+
+            #about
+            {
+                margin:75px 0;
+                background-color: #FFEFE3;
+                padding: 50px 0;
+            }
+
+            #about p
+            {
+                margin: 25px 0px;
+                font-family: 'Roboto Flex', sans-serif;
+                font-weight: 500;
+                color: black;
+            }
+
+            #about h3
+            {
+                margin:20px 0px;
+                text-align:center;
+                font-size: 50px;
+                font-family: 'DM Serif Display', serif;
+                color: #87A330;
+            }
+
+            #content
+            {
+                display:flex;
+                justify-content: space-around;
+                font-size: 25px;
+            }
+
+            table,tr,th,td
+            {
+                border:2px solid black;
+                border-collapse: collapse;
+                color: #2A3C24;
+            }
+
+            td
+            {
+                padding:30px;
+            }
+
+            #skills img{
+                height:100px;
+                width:100px;
+                margin-left:30px;
+                padding:10px;
+            }
+
+            #lang
+            {
+                position: relative;
+                display: flex;
+                justify-content: space-between;
+                width:600px;    
+                left: 335px;
+                top: 30px;
+                padding:0 50px 50px;
+            }
+
+            #contact
+            {
+                margin-left:500px;
+                font-size: 40px;
+            }
+
+            #contact p
+            {
+                display: inline;
+            }
+
+            button
+            {
+                font-size: 25px;
+                position: relative;
+                bottom:5px;
+            }
+            input[type=email]
+            {
+                border:2px solid black;
+                padding:10px;
+                border-radius:15px;
+                position: relative;
+                left:5px;
+                bottom:8px;
+            }
+
+            #foot
+            {
+                margin:40px 25px;
+                font-size: 20px;
+                display:flex;
+                justify-content: space-between;
+                padding:0 20px;
+            }
+            
+            #res
+            {
+                position: absolute;
+                left:120px;
+                font-size: 20px;
+                color:black;
+            }
+            
+        </style>
+
+    </head>
+    <body>
+        <div id="container">
+            <header id="header">
+                <div id="logo">
+                    <h4>Bomireddy</h4>
+                </div>
+                <div id="navbar">
+                    <a href="">Home</a>
+                    <a href="#about">About Me</a>
+                    <a href="#contact">Contact Me</a>
+                </div>
+            </header>    
+            <div id="home">
+                <div id="hello">
+                    <h1>Hello,</h1>
+                    <p>Welcome to<br>Nithenn's portfolio</p>
+                </div>
+                <div id="coder">
+                    <img src="https://png.pngtree.com/png-vector/20230728/ourmid/pngtree-coder-clipart-boy-working-with-computer-game-on-the-desk-vector-png-image_6804917.png">
+                </div>
+            </div>
+            <div id="about">
+                <h3>About Me</h3>
+                <div id="content">
+                    <div id="para">
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit.<br> Quidem dolores voluptatem esse 
+                            perferendis eum sapiente consectetur<br> nihil dolorum unde quas illum, deleniti quia repellendus 
+                            facilis fugit libero<br> non neque quisquam!
+                        </p>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit.<br> Quidem dolores voluptatem esse 
+                            perferendis eum sapiente consectetur<br> nihil dolorum unde quas illum, deleniti quia repellendus 
+                            facilis fugit libero<br> non neque quisquam!
+                        </p>
+                    </div>
+                    <div id="tab">
+                        <table>
+                            <tr>
+                                <th>Classes</th>
+                                <th>Place</th>
+                            </tr>
+                            <tr>
+                                <td>K.G.</td>
+                                <td>HYD</td>
+                            </tr>
+                            <tr>
+                                <td>I-II</td>
+                                <td>HYD</td>
+                            </tr>
+                            <tr>
+                                <td>III-XII</td>
+                                <td>HYD</td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+                <a href="Resume1.html" id="res" target="_blank"> Check out my Resume</a>
+                <div id="skills">
+                    <h3>My Skills</h3>
+                    <div id="lang">
+                        <marquee behavior="scroll" direction="left">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/C_Programming_Language.svg/695px-C_Programming_Language.svg.png" alt="C">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/ISO_C%2B%2B_Logo.svg/1822px-ISO_C%2B%2B_Logo.svg.png" alt="C++">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1200px-Python-logo-notext.svg.png" alt="Python">
+                            <img src="html5.png" alt="HTML">
+                            <img src="css.png" alt="CSS">
+                        </marquee>
+                    </div>
+                </div>
+            </div>
+            <div id="contact">
+                <form>
+                    <p>Email</p>
+                    <input type="email">
+                    <button>Send</button> <br>
+                </form>
+            </div>
+            <footer id="foot">
+                <p>Copyright &copy; 2024<strong> Bomireddy</strong></p>
+                <p>All rights reserved!!!</p>
+            </footer>
+        </div>
+    </body>
+</html>
